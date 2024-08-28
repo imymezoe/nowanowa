@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+header {
+    background-color: rgba(250, 238, 189, 0.5);
+}
+
+/* ----------- 右半邊 ----------- */
+
+/*--- TOP輪播圖 ---*/
+.carousel {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.carousel img {
+    width: 600px;
+    outline: 3px solid #9d8c7a;
+}
+
+/* 有分<>箭頭的CSS樣式
+    .carousel i {
+    font-size: 50px;
+    margin: 18px;
+} */
+
+/*--- 食材來源 ---*/
+section {
+    width: 100%;
+    text-align: center;
+}
+
+.ingredients h2,
+.dessert h2,
+.cookies h2 {
+    color: #94a242;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.ingredients ul {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.ingredients li {
+    margin: 10px;
+    width: 100%;
+}
+
+.ingredients h3 {
+    margin: 10px 0;
+    color: #e19a39;
+}
+
+.ingredients span {
+    display: block;
+    color: firebrick;
+    margin-top: 5px;
+}
+
+.ingredients-bd {
+    border-left: 6px dotted #94a242;
+    border-right: 6px dotted #94a242;
+}
+
+/*--- 主打商品 ---*/
+.dessert ul {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto 30px auto;
+    flex-wrap: wrap;
+}
+
+.dessert li {
+    margin: 0 15px;
+}
+
+.dessert li img {
+    width: 300px;
+    box-shadow: 6px 5px 5px #999;
+}
+
+.dessert h4 {
+    margin: 10px 0;
+}
+
+/* -----訂購蛋糕按鈕設計----- */
+.btn,
+.btn:focus {
+    position: relative;
+    min-width: 200px;
+    background: none;
+    border: none;
+    color: #e19a39;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 4px #e19a39;
+    transition: color 0.25s 0.0833333333s;
+    padding: 15px 25px;
+}
+
+.btn:before,
+.btn:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border: 0 solid transparent;
+    box-sizing: border-box;
+}
+
+.btn:before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.btn:after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.btn:hover {
+    color: #ffe593;
+}
+
+.btn:hover:before,
+.btn:hover:after {
+    border-color: #ffe593;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.btn:hover:before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.btn:hover:after {
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+/* -----按鈕跟標題距離-- */
+.cookies h2 {
+    margin-top: 40px;
+}
+
+/* -----餅乾輪播圖-- */
+.swiper {
+    width: 100%;
+    height: 70%;
+    /* background-color: #ffe593; */
+    margin-top: 30px;
+    display: flex;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide h5 {
+    margin-bottom: 5px;
+    color: #9d8c7a;
+    text-align: left;
+}
+
+.swiper-slide img {
+    display: flex;
+    width: 330px;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color:#94a242 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #94a242 !important;
+}
+
+.cookies h6 {
+    font-size: 1.2rem;
+}
+
+.cookies h6 a {
+    color: #94a242;
+}
+
+.cookies h6 a:hover {
+    color: #e19a39
+}
+
+/* ----魚紋圖--- */
+.totem-decor {
+    margin-top: 50px;
+}

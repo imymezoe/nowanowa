@@ -1,0 +1,122 @@
+/* ----- All Default ----- */
+* {
+    font-size: 16px;
+    font-family: Verdana, Geneva, '微軟正黑體', Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+/* ----- Header + Nav ----- */
+header {
+    width: 20%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.header-left-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+header .nav {
+    font-size: 1.2rem;
+}
+
+header .nav li {
+    padding-bottom: 20px;
+    line-height: 20px;
+
+    /* list-style-type: disc; */
+}
+
+header .nav li a::before{
+    content: '•';
+    float: left;
+    margin-right: 5px;
+}
+
+header .nav span {
+    color: #e19a39;
+}
+
+header .nav a {
+    display: block;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header .nav a:hover {
+    border-bottom: 3px solid #f1c350;
+}
+
+/* ----- 右邊包的最外層----- */
+.right-wrapper {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ----- 魚紋圖騰 ----- */
+.totem-decor {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.totem-decor img {
+    width: 100%;
+}
+
+/* ----- Footer 最下方----- */
+footer {
+    width: 100%;
+}
+
+.map {
+    float: right;
+    margin: 30px;
+}
+
+.map iframe {
+    max-width: 500px;
+    max-height: 140px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.socialmedia i {
+    font-size: 32px;
+    color: #f1c350;
+}
+
+.socialmedia a {
+    margin-left: 30px;
+}
+
+.contact-text {
+    margin: 25px 25px 10px 25px;
+    line-height: 24px;
+}
+
+.contact-text p:nth-child(5) {
+    color: firebrick;
+}

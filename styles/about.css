@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+header {
+    background-color: rgba(250, 238, 189, 0.5);
+}
+
+/* --------- 右半邊80% --------- */
+.top-pic {
+    width: 100%;
+}
+
+.top-pic h1 {
+    width: 100%;
+    height: auto;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+    color: white;
+    background-image: url('../Images/aboutus/mainpic.jpg');
+    background-position: center;
+    background-size: cover ;
+}
+
+/* -----食材介紹----- */
+.aboutus-contact {
+    width: 100%;
+    background-color: rgba(157, 140, 122, 0.2);
+}
+
+section {
+    max-width: 800px;
+    max-height: 500px;
+    margin: 40px;
+    background-color: beige;
+    outline: 4px solid  rgba(157, 140, 122, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+section img {
+    max-width: 180px;
+    margin: 35px;
+}
+
+section h1 {
+    margin: 24px 0 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section h2 {
+    margin: 8px 0;
+    color: #94a242;
+    font-weight:bold;
+}
+
+section p {
+    line-height: 1.4;
+}
+
+.aboutus-text{
+    max-width: 500px;
+    /* background-color: mistyrose; */
+}
+
+.sec-02{
+    flex-direction: row-reverse;
+}
+
+.sec-03 span {
+    color: firebrick;
+    line-height: 2;
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+header {
+    background-color: rgba(250, 238, 189, 0.5);
+}
+
+/* ----------- 右半邊 ----------- */
+.top-pic {
+    width: 100%;
+}
+
+.top-pic h1 {
+    width: 100%;
+    height: auto;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+
+    color: white;
+    background-image: url('../Images/banner/catering-top.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----- 客製流程圖 ----- */
+.process {
+    width: 100%;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.process h1 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    max-width: 240px;
+    line-height: 40px;
+    background: rgb(148, 162, 66);
+    background: linear-gradient(90deg, rgba(250, 238, 189, 1) 0%, rgba(241, 195, 80, 1) 25%, rgba(148, 162, 66, 1) 100%);
+    border-radius: 20px;
+    margin: 16px auto;
+}
+
+.process img {
+    width: 240px;
+    margin: 18px 0;
+}
+
+/* ----- 專人區域 ----- */
+
+.process-item {
+    width: 100%;
+    margin: 16px;
+}
+
+.process-item-mg * {
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section li {
+    width: 450px;
+    background-color: #faeebd;
+    display: inline-block;
+    box-shadow: 6px 5px 5px #999;
+}
+
+section img {
+    width: 200px;
+    float: left;
+}
+
+section h3 {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+section a {
+    display: inline-block;
+    width: 100px;
+    line-height: 30px;
+    background-color: #9d8c7a;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+section a:hover {
+    color: black;
+    background-color: #f1c350;
+}
+
+
+
