@@ -55,8 +55,11 @@ header {
         background-size: 600px 1100px;
     }
 
+    .faq h1 {
+        font-size: 1.5rem;
+    }
+
     .faq h3 {
         width: 300px;
     }
 }
-

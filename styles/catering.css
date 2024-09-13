@@ -112,11 +112,16 @@ section a:hover {
     }
 
     .process-item-mg * {
-        margin: 5px;
+        margin: 6px;
+    }
+
+    .process-item {
+        display: flex;
+        margin: 10px 0;
     }
 
     section li {
-        width: 380px;
+        width: 410px;
     }
 
     section h3 {
@@ -131,5 +136,12 @@ section a:hover {
         font-size: 15px;
         width: 85px;
         line-height: 25px;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    section li {
+        width: 370px;
     }
 }
