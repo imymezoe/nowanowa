@@ -1,0 +1,118 @@
+@media screen and (max-width:430px) {
+
+    /* LOGO+導覽列 */
+    .wrapper {
+        width: 100%;
+        display: block;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: static;
+    }
+
+    .header-left-nav {
+        position: static;
+        margin: auto;
+    }
+
+    .header-left-nav img {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    header nav li a::before {
+        display: none;
+    }
+
+    header nav li {
+        margin-bottom: 0px;
+    }
+
+    header nav span {
+        padding-left: 0px;
+    }
+
+    header nav a:hover {
+        border-bottom: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        flex-grow: 1;
+        background: #faeebd;
+        padding: 10px 0;
+    }
+
+    nav li:hover {
+        background: rgba(157, 140, 122, 0.2);
+    }
+
+    nav li a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    /* 原本右半邊改為100% */
+    .right-wrapper {
+        width: 100%;
+    }
+
+    /* 魚紋圖 */
+    .totem-decor {
+        height: 40px;
+    }
+
+    /* footer */
+    .map {
+        float: none;
+        margin: 16px 0;
+        text-align: center;
+    }
+
+    .map iframe {
+        max-width: 395px;
+        max-height: 140px;
+
+    }
+
+    .container {
+        margin: 16px 30px;
+    }
+
+    .contact-text {
+        margin: 16px 18px;
+        line-height: 24px;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .socialmedia a {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+
+    /* footer */
+    .map iframe {
+        max-width: 360px;
+        max-height: 140px;
+    }
+
+}

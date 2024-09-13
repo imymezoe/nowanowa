@@ -101,4 +101,35 @@ section a:hover {
 }
 
 
+/* ------------RWD------------- */
+@media screen and (max-width:430px) {
+    .top-pic h1 {
+        font-size: 2.8rem;
+    }
 
+    .process {
+        margin: 5px 0;
+    }
+
+    .process-item-mg * {
+        margin: 5px;
+    }
+
+    section li {
+        width: 380px;
+    }
+
+    section h3 {
+        font-size: 15px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    section a {
+        font-size: 15px;
+        width: 85px;
+        line-height: 25px;
+    }
+}

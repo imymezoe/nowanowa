@@ -180,11 +180,12 @@ section {
     object-fit: cover;
 }
 
-.swiper-button-next, .swiper-button-prev{
-    color:#94a242 !important;
+.swiper-button-next,
+.swiper-button-prev {
+    color: #94a242 !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: #94a242 !important;
 }
 
@@ -203,4 +204,64 @@ section {
 /* ----魚紋圖--- */
 .totem-decor {
     margin-top: 50px;
+}
+
+/* ------------RWD------------- */
+@media screen and (max-width:430px) {
+
+    .carousel img {
+        max-width: 360px;
+    }
+
+    .ingredients h2,
+    .dessert h2,
+    .cookies h2 {
+        font-size: 1.2rem;
+    }
+
+    .ingredients ul {
+        width: 320px;
+        flex-wrap: wrap;
+    }
+
+    .ingredients li {
+        margin: 0;
+    }
+
+    .ingredients-bd {
+        display: none;
+    }
+
+    .dessert ul {
+        width: 400px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .dessert li {
+        margin: 0 10px;
+    }
+
+    .dessert li img {
+        width: 180px;
+    }
+
+    .btn {
+        padding: 10px 16px;
+    }
+
+    .cookies h6 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    .dessert ul {
+        width: 360px;
+    }
+
+    .dessert li img {
+        width: 160px;
+    }
 }

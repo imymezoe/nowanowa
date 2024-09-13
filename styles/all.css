@@ -31,28 +31,27 @@ header img {
     max-width: 240px;
 }
 
-header .nav {
+header nav {
     font-size: 1.2rem;
-}
-
-header .nav li {
-    padding-bottom: 20px;
     line-height: 20px;
-
-    /* list-style-type: disc; */
 }
 
-header .nav li a::before{
+header nav li{
+    margin-bottom: 20px;
+}
+
+header nav li a::before {
     content: '•';
     float: left;
-    margin-right: 5px;
+    padding-right: 5px;
 }
 
-header .nav span {
+header nav span {
     color: #e19a39;
+    padding-left: 10px;
 }
 
-header .nav a {
+header nav a {
     display: block;
     width: 100px;
     color: black;
@@ -62,7 +61,7 @@ header .nav a {
     margin: 0 auto;
 }
 
-header .nav a:hover {
+header nav a:hover {
     border-bottom: 3px solid #f1c350;
 }
 
@@ -120,3 +119,6 @@ footer {
 .contact-text p:nth-child(5) {
     color: firebrick;
 }
+
+/* ----------------RWD------------------ */
+@media screen and (max-width:430px) {}

@@ -3,6 +3,7 @@
 header {
     background-color: rgba(250, 238, 189, 0.5);
 }
+
 /* ----- 右半邊 ----- */
 .faq {
     width: 100%;
@@ -10,7 +11,7 @@ header {
     margin-top: 20px;
     background-image: url(../logo/frong_bg40.png);
     background-repeat: no-repeat;
-    background-position:right bottom;
+    background-position: right bottom;
     background-attachment: local;
 }
 
@@ -30,7 +31,7 @@ header {
 .faq h3 {
     width: 500px;
     color: white;
-    background-color: rgba(225, 154, 57,0.8);
+    background-color: rgba(225, 154, 57, 0.8);
     border-radius: 20px;
     padding: 5px;
     line-height: 20px;
@@ -46,3 +47,16 @@ header {
 .faq span {
     color: firebrick;
 }
+
+/* ----------------RWD------------------ */
+@media screen and (max-width:430px) {
+
+    .faq {
+        background-size: 600px 1100px;
+    }
+
+    .faq h3 {
+        width: 300px;
+    }
+}
+

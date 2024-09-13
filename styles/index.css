@@ -19,7 +19,6 @@ main {
 }
 
 .banner li {
-    background-color: aqua;
     transition: 0.5s;
     background-size: cover;
     background-position: center center;
@@ -201,4 +200,66 @@ section img:hover {
 
 .route-text a:hover {
     color: black;
+}
+
+/* ------------RWD------------- */
+@media screen and (max-width:430px) {
+
+    .banner {
+        display: flex;
+        margin: 16px auto;
+        width: 360px;
+        height: 280px;
+    }
+
+    .concept h1 {
+        font-size: 16px;
+        max-width: 200px;
+    }
+
+    section img {
+        width: 170px;
+        height: 300px;
+    }
+
+    .concept p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    section {
+        margin: 16px 0;
+    }
+
+    section li {
+        padding: 0;
+    }
+
+    .route-text {
+        width: 240px;
+        height: 140px;
+        padding: 12px;
+        line-height: 18px;
+    }
+
+    .route-text h3 {
+        font-size: 14px;
+    }
+
+    .route-text p {
+        font-size: 13px;
+    }
+
+    .route-text a {
+        width: 100px;
+        line-height: 20px;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    .route-text i {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0 5px;
+    }
 }
